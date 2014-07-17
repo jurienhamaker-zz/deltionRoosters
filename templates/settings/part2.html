@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+{% block title %}
+	{{ super() }} | Settings
+{% endblock %}
+
+{% block content %}
+	<h1>Settings deel 2</h1>
+	<h3>Welk lyceum volg je?</h3>
+
+	<form method="POST" action="/settings/part2">
+		<select name="lyceum" class="form-control">
+			{{ options|safe }}
+		</select>
+		<input type="submit" value="Step 3" class="btn btn-lg btn-info">
+	</form>
+{% endblock %}

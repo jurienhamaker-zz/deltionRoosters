@@ -1,0 +1,131 @@
+/* begin : needed for js */
+.rostertableheader {
+	position:absolute;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	background-color:#BBCCFF;
+}
+
+.rostertablevalue {
+	text-align: center;
+	border-width:1px;	
+	border-style:solid;
+	background-color:#FFFFFF;
+	white-space:nowrap;
+}
+
+.rostertabledouble {
+	text-align: center;
+	border-width:1px;
+	border-style:solid;
+	background-color:#D2E2FF;
+	/*background-color:#D0D0FF;*/
+	white-space:nowrap;
+}
+
+.rostertableoverlapping {
+	text-align: center;
+	border-width:1px;
+	border-style:solid;
+	white-space:nowrap;
+	background-color:#D2E2FF;
+}
+
+.rostertableremark {
+	text-align: center;
+	border-width:1px;
+	border-style:solid;
+	background-color:#00FFFF;
+	white-space:nowrap;
+}
+
+.rostertabledoubleexam {
+	text-align: center;
+	border-width:1px;
+	border-style:solid;
+	white-space:nowrap;
+	background-color:#D2E2FF;
+	background-image:url(../images/exam.gif);
+}
+
+.rostertableexamvalue {
+	text-align: center;
+	border-width:1px;
+	border-style:solid;
+	white-space:nowrap;
+	background-color:#FFB0B0;
+}
+
+/* end : needed for js */
+
+
+.rosterday {
+ 	-webkit-border-radius: 8px;
+ 	-moz-border-radius: 8px;
+ 	background-color:#ffffff;
+ 	float:left;
+ 	margin:0px 1px 1px 1px;
+ 	padding:0px 8px 8px 6px;
+}
+
+.rostertooltipdouble, .rostertooltip {
+	display:none;
+	position:absolute;
+	z-index:102;
+	line-height:12px;
+}
+
+.rostertooltipdouble {
+	margin: 5px 0px 0px 5px; /*bij dubbele roosteruren springt complete tooltip (5, 5) in */
+	/*background-color:yellow; */
+	 /* divs in rostertooltip hebben margin-left=-1 ter voorkomen van dubbele randen tussen die divs
+	    dit veroorzaakt ook dat de totale top en left border wegvalt, dit wordt hieronder in de hoofddiv hersteld */
+	border-left:1px solid black;
+	border-top:1px solid black;	
+}
+
+.rostertooltip {
+	border: 1px solid black;
+	background-color:#D2E2FF;
+	/*background-color:#D0D0FF;*/
+	padding: 2px 4px 2px 4px;
+}
+
+.rostertableheadersubscribe {
+	position:absolute;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	border-width:0px;
+	background-color:#BBCCFF;
+}
+
+.rostertableheaderlegenda {
+	font-weight: bold;
+	text-align: center;
+	border-width:1px;
+	border-style:solid;
+	background-color:#BBCCFF;
+}
+
+.rostertableheaderexternal {
+	position:absolute;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	background-color:#CCC;
+	color:black;
+}
+
+#scroller{	
+	height: 190px;
+	width: 195px;
+}
+
+@media print {
+	#leftview
+	{
+		display:none;
+	}
+}

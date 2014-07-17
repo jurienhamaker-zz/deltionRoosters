@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}Deltion Roster App{% endblock %}</title>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="10 days">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+	
+	<!-- jquery -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+	<!-- Bootstrap + bootswatch skin -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" class="bootstrapTheme" type="text/css" href="http://bootswatch.com/superhero/bootstrap.css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+	<!-- Roster files styling -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/roostertabel.css') }}">
+	<script type="text/javascript" src="{{ url_for('static', filename='js/scroller.js') }}"></script>
+</head>
+<body>
+	<div class="container">
+		{% block content %}
+		
+		{% endblock %}
+	</div>
+</body>
+</html>

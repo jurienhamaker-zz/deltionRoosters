@@ -1,0 +1,21 @@
+{% extends "main.html" %}
+{% block title %}
+	{{ super() }} | Settings
+{% endblock %}
+
+{% block content %}
+	<h1>Settings deel 3</h1>
+
+	{% if position == 'teacherid' %}
+		<h3>Wat is uw afkorting?</h3>
+	{% else %}
+		<h3>In welke klas zit je?</h3>
+	{% endif %}
+
+	<form method="POST" action="/settings/part3">
+		<select name="group" class="form-control">
+			{{ options|safe }}
+		</select>
+		<input type="submit" value="Opslaan" class="btn btn-lg btn-info">
+	</form>
+{% endblock %}

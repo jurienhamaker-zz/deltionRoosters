@@ -1,0 +1,31 @@
+#hd_left {
+	background-image: url(../../images/custom/deltionlogo.png);
+	background-position:50% 70%;	
+}
+
+#hd {
+	background: white; /* for non-css3 browsers */
+
+	background: linear-gradient(to right, white, #f67f1a);
+	background: -webkit-gradient(linear, left top, right top, from(white), to(#f67f1a));
+	background: -moz-linear-gradient(left, white, #f67f1a);
+	background: -o-linear-gradient(left,white, #f67f1a);
+	background: -ms-linear-gradient(left, white, #f67f1a);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#f67f1a', GradientType=1);
+}
+
+body
+{
+	background: #002D66; /* for non-css3 browsers */
+
+	background: linear-gradient(to bottom, #002D66, #2b76ca);
+	background: -webkit-gradient(linear, left top, left bottom, from(#002D66), to(#2b76ca));
+	background: -moz-linear-gradient(top, #002D66, #2b76ca);
+	background: -o-linear-gradient(top, #002D66, #2b76ca);
+	background: -ms-linear-gradient(top, #002D66, #2b76ca);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#002D66', endColorstr='#2b76ca', GradientType=0);
+}
+html {
+	height:100%;
+	min-height:100%;
+}

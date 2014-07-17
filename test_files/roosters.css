@@ -1,0 +1,140 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin:0;
+	padding:0;
+}
+
+p {
+	text-align: justify;
+	margin: 0 10px 10px 10px;
+	font-size: 12px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: #FF6100;
+	margin: 0 0 10px 0;
+}
+
+select {	
+	margin:1px 0px 1px 0px;	
+}
+
+h6 {
+	font-weight: bold;
+	font-size: 10px;
+	letter-spacing: 1px;
+	padding: 10px 10px 3px 0;
+	margin: 0;
+}
+
+img {
+	border-width : 0px;
+	margin:0;
+	padding:0;
+}
+
+fieldset {
+    display: block;
+    margin: 2px;
+    -moz-border-radius: 8px;    
+}
+
+legend{
+	color:orange;
+	font-weight:bold;
+	padding:3px;
+	margin:0px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 25px;
+    padding-left: 20px;
+}
+ul li {
+    list-style-type: circle;
+}
+
+/* Custom tags */
+#container {
+	margin:auto;
+	text-align:left;
+	width:100%;
+}
+
+#hd {
+	height:64px;
+	width:100%;
+}
+
+#hd_left {
+	float:left;
+	width:120px;
+	height:64px;
+	background-repeat: no-repeat;
+	background-position:4px 4px;
+}
+
+#hd_right {
+	float:right;
+	height:64px;
+}
+
+#menubar {	
+	background-color: #000033;
+	color:white;
+	height:24px;
+}
+
+#menubar_left {	
+	float:left;	
+	background-color: white;
+}
+
+/* Menu items are a light gray block with padding and no text decoration */
+#menubar_right
+{		
+	float:right;
+	padding: 0.45em 0.75em;    
+}
+
+/* bevat left en right*/
+#content {
+	clear:both;
+	background-color:white;
+	padding: 7px;		
+}
+
+#ft {
+	background-color: #000033;
+	color:white;
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+.message-error 
+{
+	font-weight: bold;
+	color: red;
+}		
+
+.message-good
+{
+	font-weight: bold;
+	color: green;
+}
+
+.floatleft
+{
+	float: left;
+}
+
+.floatright
+{
+	float: right;
+}

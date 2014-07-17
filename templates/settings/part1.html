@@ -1,0 +1,17 @@
+{% extends "main.html" %}
+{% block title %}
+	{{ super() }} | Settings
+{% endblock %}
+
+{% block content %}
+	<h1>Settings</h1>
+	<h3>Ben je een student of leraar?</h3>
+
+	<form method="POST" action="/settings">
+		<select name="type" class="form-control">
+			<option value="Student">Student</option>
+			<option value="Teacher">Leraar</option>
+		</select>
+		<input type="submit" value="Step 2" class="btn btn-lg btn-info">
+	</form>
+{% endblock %}

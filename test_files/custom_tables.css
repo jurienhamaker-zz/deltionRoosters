@@ -1,0 +1,41 @@
+.TableMain {
+	border: 1px solid #000;
+}
+
+.TableMain th {
+	color: white;
+	font-weight: bold;
+	background-color: orange;
+}
+
+.TableMain td {
+	color: #000;
+	border: 0px solid #000;
+	padding: 3px;
+}
+
+.TableMain tr.odd {
+    background-color: #fff;
+}
+
+.TableMain tr.even {
+    background-color: #cccccc;
+}
+
+.TableMain tr.highlight {
+    background-color: orange;
+}
+
+.TableMain tr:hover td {
+    background-color: #ffad30;
+	/*color: #fff;*/
+}
+
+.overviewcell {
+	position: absolute; 
+	overflow:hidden;
+}
+
+.overviewinnercell {
+	overflow:hidden;
+}
